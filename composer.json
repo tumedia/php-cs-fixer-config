@@ -1,0 +1,21 @@
+{
+    "name": "tumedia/php-cs-fixer-config",
+    "description": "Shared configuration for friendsofphp/php-cs-fixer for TU Media",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristoffer Alfheim",
+            "email": "kristoffer@tumedia.no"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "friendsofphp/php-cs-fixer": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tumedia\\CS\\": "./src"
+        }
+    }
+}
