@@ -8,9 +8,7 @@
 
     $ composer global require tumedia/php-cs-fixer-config
 
-**Install `php-cs-fixer` globally:**
-
-    $ composer global require friendsofphp/php-cs-fixer
+Since this package requires `friendsofphp/php-cs-fixer`, the `php-cs-fixer` CLI will now be available.
 
 ## Per-Project Setup
 
