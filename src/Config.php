@@ -8,8 +8,8 @@ use PhpCsFixer\Config as BaseConfig;
 class Config extends BaseConfig
 {
     /**
-     * Creates a new Config instance and then invokes a callback with the new
-     * instance and its finder instance.
+     * Creates a new config instance and then invokes the given callback with
+     * the new instance as the only argument.
      *
      * @param  \Closure  $callback
      * @return \Tumedia\CS\Config
