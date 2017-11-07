@@ -1,6 +1,6 @@
 # php-cs-fixer-config
 
-> Shared friendsofphp/php-cs-fixer configuration for TU Media.
+> Shared [friendsofphp/php-cs-fixer](http://cs.sensiolabs.org/) configuration for TU Media.
 
 ## Local Setup
 
