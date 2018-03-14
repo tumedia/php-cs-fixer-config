@@ -14,9 +14,8 @@ class ConfigTest extends TestCase
         $config = Config::create();
 
         $this->assertArraySubset([
-            // @todo: add something non-default to this so we know it's *really*
-            //        loading correctly
             '@PSR2' => true,
+            'no_unused_imports' => true,
         ], $config->getRules(), true);
     }
 
